@@ -1,8 +1,8 @@
-﻿[phases.install]
-cmds = ["npm install"]
+[phases.install]
+cmds = ["npm install --legacy-peer-deps"]
 
 [phases.build]
 cmds = ["npm run build"]
 
 [start]
-cmd = "npx serve dist -p 3000"
+cmd = "npx serve@14 dist -p 3000"
