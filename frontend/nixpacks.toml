@@ -1,10 +1,8 @@
-cd C:\Users\Admin\OneDrive\RAG\agentic-rag-assistant-main\frontend
-echo '[phases.build]
+﻿[phases.install]
+cmds = ["npm install"]
+
+[phases.build]
 cmds = ["npm run build"]
 
 [start]
-cmd = "npx serve dist -p 3000"' > nixpacks.toml
-
-git add .
-git commit -m "add nixpacks config"
-git push
+cmd = "npx serve dist -p 3000"
