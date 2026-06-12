@@ -7,8 +7,8 @@ pydantic
 groq
 tavily-python
 
-langchain-community
 langchain-core
+langchain-community
 langchain-huggingface
 
 chromadb
@@ -16,3 +16,7 @@ sentence-transformers
 
 pypdf
 requests
+
+openai-whisper
+
+torch
